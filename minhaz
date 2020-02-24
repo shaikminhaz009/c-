@@ -1,22 +1,23 @@
 
-1.
-}
+1
+
 #include <stdio.h>
 
 int main()
-{int a;
-float b;
-char c;
+{
+int x;
+float y;
+char z;
 
     printf("enter the integer  value");
-    scanf("%d",&a);
-    printf("\nThe integer you have entered is %d",a);
+    scanf("%d",&x);
+    printf("\nThe integer you have entered is %d",x);
     printf("\n enter the float value");
-    scanf("\n %f",&b);
-    printf("\n The float you entered is %f",b);
+    scanf("\n %f",&y);
+    printf("\n The float you entered is %f",y);
     printf("\n enter the character value ");
-    scanf("\n%c",&c);
-    printf("\n The entered values is char %c",c);
+    scanf("\n%c",&z);
+    printf("\n The entered values is char %c",z);
     
 
     return 0;
@@ -26,13 +27,13 @@ char c;
     #include <stdio.h>
 
 int main()
-{int a,b;
+{int k,m;
     printf("enter the two values");
-    scanf("%d%d",&a,&b);
+    scanf("%d%d",&k,&m);
     if(a>b)
-    printf("%d is greater than the %d",a,b);
+    printf("%d is greater than the %d",k,m);
     else
-    printf("%d is greater than the %d",b,a);
+    printf("%d is greater than the %d",m,k);
     
 
     return 0;
@@ -55,7 +56,7 @@ int main()
     if((c>a)&&(c>b))
     printf("\n %d is greater than %d and %d",c,b,a);
     else
-    printf("YOU HAVE BEEN HACKED");
+    printf("INVALID\n");
         return 0;
 }
 2.
@@ -437,7 +438,8 @@ int main()
 05.
 
 #include <stdio.h>
-int main() {
+int main() 
+{
     int n, i,x;
     
     printf("Enter an integer: ");
@@ -447,7 +449,7 @@ for(i=n;i>=1;i=i-1)
 {
 x=x*i;
 }
-printf("%d is factoril",x);
+printf("%d is factorial",x);
 
 
     return 0;
